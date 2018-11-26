@@ -1,4 +1,4 @@
-
+<?php
 CREATE TABLE IF NOT EXISTS `members` (
   `memberID` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL DEFAULT '',
@@ -23,3 +23,4 @@ INSERT INTO `pages` (`pageID`, `pageTitle`, `isRoot`, `pageCont`) VALUES
 (3, 'Services', 1, '<p>Sample Sample content</p>'),
 (4, 'News', 1, '<p>Sample Sample content</p>'),
 (5, 'Contact', 1, '<p>Sample Sample content</p>');
+?>
